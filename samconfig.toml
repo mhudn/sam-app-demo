@@ -2,9 +2,9 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "sam-app-b2202"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-r20dhgzq4zg8"
-s3_prefix = "sam-app-b2202"
+stack_name = "sam-app-demo"
+s3_bucket = "sam-app-deploment-project"
+s3_prefix = "sam-app-demo"
 region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"

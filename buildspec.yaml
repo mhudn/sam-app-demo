@@ -6,7 +6,7 @@ phases:
       - cd hello_world/
       - pip install -r requirements.txt -t .
       - cd ..
-      - aws cloudformation package --template-file template.yaml --s3-bucket sam-app-deploment-project --output-template-file packaged.yaml
+      - aws cloudformation package --template-file template.yaml --s3-bucket sam-app-deployment-project --output-template-file packaged.yaml
 #izaanschool-api-codebuild-artifact-666680140343
 artifacts:
   files:

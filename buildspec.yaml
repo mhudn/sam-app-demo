@@ -6,7 +6,7 @@ phases:
       - cd hello_world/
       - pip install -r requirements.txt -t .
       - cd ..
-      - aws cloudformation package --template-file template.yaml --s3-bucket codepipeline-us-east-1-634956823799 --output-template-file packaged.yaml
+      - aws cloudformation package --template-file template.yaml --s3-bucket aws-sam-cli-managed-default-samclisourcebucket-1sof0ku9nehtm --output-template-file packaged.yaml
 artifacts:
   files:
     - template.yaml

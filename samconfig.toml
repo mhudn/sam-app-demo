@@ -4,9 +4,9 @@ version = 0.1
 [default.deploy.parameters]
 stack_name = "sam-app-mhudn"
 s3_bucket = "sam-app-cicd-mhudn"
-s3_prefix = "sam-app-mhudn"
+s3_prefix = "sam-app-cicd-mhudn"
 region = "us-east-1"
 confirm_changeset = true
-capabilities = "CAPABILITY_IAM"
+capabilities = "CAPABILITY_IAM, CAPABILITY_NAMED_IAM, CAPABILITY_AUTO_EXPAND"
 image_repositories = []
 disable_rollback = true

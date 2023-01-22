@@ -2,10 +2,10 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "sam-app-demo"
-s3_bucket = "sam-app-deploment-project"
-s3_prefix = "sam-app-demo"
+stack_name = "sam-app-deployment-project"
+s3_bucket = "sam-app-deployment-project"
+s3_prefix = "sam-app-deployment-project"
 region = "us-east-1"
 confirm_changeset = true
-capabilities = "CAPABILITY_IAM"
+capabilities = "CAPABILITY_IAM,CAPABILITY_NAMED_IAM,CAPABILITY_AUTO_EXPAND"
 image_repositories = []

@@ -40,7 +40,7 @@ Resources:
 #          OnFailure:
 #            Type: Lambda
 #            Destination: !GetAtt DestinationLambda.Arn
-        MaximumEventAgeInSeconds: 60
+        MaximumEventAgeInSeconds: 55
         MaximumRetryAttempts: 2
   HeyFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
@@ -65,7 +65,7 @@ Resources:
         #          OnFailure:
         #            Type: Lambda
         #            Destination: !GetAtt DestinationLambda.Arn
-        MaximumEventAgeInSeconds: 60
+        MaximumEventAgeInSeconds: 55
         MaximumRetryAttempts: 2
 
 Outputs:

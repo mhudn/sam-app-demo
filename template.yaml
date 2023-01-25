@@ -18,6 +18,7 @@ Resources:
       CodeUri: hello_world/
       Handler: app.lambda_handler
       Runtime: python3.9
+      Role: arn:aws:iam::346091724319:role/my-lambda-role
       Architectures:
         - x86_64
       Events:
@@ -47,6 +48,7 @@ Resources:
       CodeUri: hello_world/
       Handler: hey-app.lambda_handler
       Runtime: python3.9
+      Role: arn:aws:iam::346091724319:role/my-lambda-role
       Architectures:
         - x86_64
       Events:
